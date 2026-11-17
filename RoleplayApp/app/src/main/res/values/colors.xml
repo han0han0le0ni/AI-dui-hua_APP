@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- 注意：不使用 background / foreground / icon / color 等泛化保留名 -->
+    <color name="launch_window_surface">#FFFAF8FF</color>
+    <color name="ic_launcher_background">#FF4A3F6B</color>
+</resources>

@@ -1,0 +1,23 @@
+# ---------- 签名：绝对不能进版本库 ----------
+*.jks
+*.keystore
+keystore.properties
+signing.properties
+
+# ---------- 本机路径 ----------
+local.properties
+
+# ---------- 构建产物 ----------
+build/
+.gradle/
+.kotlin/
+captures/
+.externalNativeBuild/
+.cxx/
+
+# ---------- IDE ----------
+.idea/
+*.iml
+*.hprof
+
+# 注意：app/schemas 要提交。Room 用它做迁移测试，丢了就没法验证升级路径。

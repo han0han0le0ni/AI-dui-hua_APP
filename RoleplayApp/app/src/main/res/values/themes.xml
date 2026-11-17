@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Compose 应用：XML 主题只负责窗口底色，配色由 Compose 的 ColorScheme 接管 -->
+    <style name="Theme.RoleplayApp" parent="android:Theme.Material.Light.NoActionBar">
+        <item name="android:windowBackground">@color/launch_window_surface</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:navigationBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="android:windowTranslucentNavigation">true</item>
+    </style>
+</resources>

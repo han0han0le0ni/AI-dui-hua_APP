@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="108dp"
+    android:height="108dp"
+    android:viewportWidth="108"
+    android:viewportHeight="108">
+
+    <!-- 对话气泡：外形 + 心形镂空（fillType=evenOdd 实现挖空） -->
+    <path
+        android:fillColor="#FFFFFFFF"
+        android:fillType="evenOdd"
+        android:pathData="
+            M18,33
+            C18,26.4 23.4,21 30,21
+            L78,21
+            C84.6,21 90,26.4 90,33
+            L90,63
+            C90,69.6 84.6,75 78,75
+            L58,75
+            L46,87
+            L46,75
+            L30,75
+            C23.4,75 18,69.6 18,63
+            Z
+            M54,55
+            C48,50 44,47 44,44
+            C44,41.2 46.2,39 49,39
+            C50.8,39 52.4,40 54,41.6
+            C55.6,40 57.2,39 59,39
+            C61.8,39 64,41.2 64,44
+            C64,47 60,50 54,55
+            Z" />
+</vector>

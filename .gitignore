@@ -1,0 +1,11 @@
+# ---------- IDE ----------
+.idea/
+.vscode/
+*.iml
+
+# ---------- 分发件（源码仓库不放 APK，需要时从 Release 取） ----------
+RoleplayApp/dist/
+
+# ---------- 临时文件 ----------
+.tmp/
+.screenshots/

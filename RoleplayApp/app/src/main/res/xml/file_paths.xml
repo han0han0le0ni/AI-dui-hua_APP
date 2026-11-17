@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<paths xmlns:android="http://schemas.android.com/apk/res/android">
+    <!-- 备份 zip 暂存在 cache，导出时通过 FileProvider 交给系统分享面板 -->
+    <cache-path
+        name="roleplay_backups"
+        path="backups/" />
+    <files-path
+        name="roleplay_exports"
+        path="exports/" />
+</paths>

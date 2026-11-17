@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">角色扮演</string>
+    <string name="file_provider_authority_suffix">.fileprovider</string>
+    <string name="notification_channel_proactive">角色主动消息</string>
+    <string name="notification_channel_description">后台定时生成的角色来讯</string>
+</resources>
